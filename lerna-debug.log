@@ -1,4 +1,4 @@
-41 error Error: Command failed with exit code 1: git commit -F /tmp/dcffc967-ff9c-4384-83da-bd02eb149ba2/lerna-commit.txt
+41 error Error: Command failed with exit code 1: git commit -F /tmp/436af657-6e12-479f-b1d9-326b4ccc3329/lerna-commit.txt
 41 error husky > pre-commit (node v16.9.0)
 41 error $ lerna run format:check
 41 error lerna notice cli v4.0.0
