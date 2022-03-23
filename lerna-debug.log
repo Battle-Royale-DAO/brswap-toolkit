@@ -1,0 +1,20 @@
+41 error Error: Command failed with exit code 1: git commit -F /tmp/dcffc967-ff9c-4384-83da-bd02eb149ba2/lerna-commit.txt
+41 error husky > pre-commit (node v16.9.0)
+41 error $ lerna run format:check
+41 error lerna notice cli v4.0.0
+41 error lerna info versioning independent
+41 error lerna info Executing command in 1 package: "yarn run format:check"
+41 error lerna ERR! yarn run format:check exited 1 in '@brswap/uikit'
+41 error lerna ERR! yarn run format:check stdout:
+41 error $ prettier --check --loglevel error 'src/**/*.{js,jsx,ts,tsx}'
+41 error info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+41 error lerna ERR! yarn run format:check stderr:
+41 error error Command failed with exit code 1.
+41 error lerna ERR! yarn run format:check exited 1 in '@brswap/uikit'
+41 error error Command failed with exit code 1.
+41 error info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+41 error husky > pre-commit hook failed (add --no-verify to bypass)
+41 error     at makeError (/var/www/Blockchain/BattleRoyale/Swap/brswap-toolkit/node_modules/execa/lib/error.js:59:11)
+41 error     at handlePromise (/var/www/Blockchain/BattleRoyale/Swap/brswap-toolkit/node_modules/execa/index.js:114:26)
+41 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+41 error     at async Promise.all (index 0)
